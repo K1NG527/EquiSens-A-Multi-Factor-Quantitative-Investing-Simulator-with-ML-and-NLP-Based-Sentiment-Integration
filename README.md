@@ -85,18 +85,6 @@ This project implements a **Quantitative Factor Investing** framework using mult
 
 ---
 
-## 📄 ***Detailed Report***
-
-For a complete walkthrough of:
-- Data pipeline and methodology
-- Feature engineering and factor design
-- ML modeling decisions
-- Portfolio logic and weighting strategies
-- **Sentiment integration using NLP**
-- Graphs, visualizations, and dashboards
-
-Please refer to the attached [`project_report.pdf`](project_report.pdf)
-
 ---
 
 ## 🛠️ ***Tech Stack***
@@ -113,28 +101,22 @@ Please refer to the attached [`project_report.pdf`](project_report.pdf)
 
 ## 🗂️ ***Data Access***
 
-Due to the large size of the dataset and intermediate outputs, all relevant files have been uploaded to Google Drive.
+Please ensure you have the required datasets in the `data/` directory.
 
-📁 **Access the dataset here**: [Google Drive Dataset Folder](https://drive.google.com/drive/folders/1dYgGPBbIwWZS2khuKKa-NuUfJV43rHnU?usp=drive_link)
-
-The folder includes:
+The expected folder structure:
 - Raw financial datasets (`data/raw/`)
 - Processed features and cleaned datasets (`data/processed/`)
 - Factor score files (value, momentum, quality, etc.)
 - Sentiment analysis outputs (if applicable)
 
-To set up locally:
-1. Download the relevant folders from the Drive.
-2. Place them into the corresponding locations (in the image uploaded) within the project directory given in the Google Drive folder.
-
-> **Important**: You must download and correctly place the datasets before running notebooks or the dashboard app.
+> **Important**: You must correctly place the datasets before running notebooks or the dashboard app.
 
 ---
 ## ⚙️ ***How to Run***
 
 1. Clone the repo -
-`git clone https://github.com/Advaith1509/quant-factor-simulator.git
-cd quant-factor-simulator`
+`git clone https://github.com/K1NG527/QuantSim-A-Multi-Factor-Quantitative-Investing-Simulator-with-ML-and-NLP-Based-Sentiment-Integration.git
+cd QuantSim-A-Multi-Factor-Quantitative-Investing-Simulator-with-ML-and-NLP-Based-Sentiment-Integration`
 
 2. Install dependencies -
 `pip install -r requirements.txt`
